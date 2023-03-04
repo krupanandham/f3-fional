@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav" onclick="start()">
+      <h1>BOOK STORE APP</h1>
+      <br>
+    </div>
+
+    <div class="searching">
+      <h3>searching For Books By Their Name</h3>
+      <input
+        type="text"
+        name="searchingInput"
+        id="searchingInput"
+      />
+      <br />
+      <div id="btn">
+        <button id="searchingNow" class="btn">searching Now!</button></div><br>
+        <button id="histroyBtn">searched History</button>
+      
+    </div>
+    <div id="outputText">Book Results For `<span id="searchingInOut"></span>`</div>
+    <div id="output">
+    </div>
+    <script src="script.js"></script>
+    <script>
+      function start() {
+        window.location.href = "landing.html";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .nav {
+    border-bottom: 1px solid white;
+    padding: 15px;
+    background-color: black;
+    color: white;
+  }
+  .searching {
+    margin: 10px;
+  }
+  .searching p {
+    margin: 10px 0px;
+  }
+  .searching input {
+    width: 95%;
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px 0px;
+  }
+  .btn {
+    width: 150px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    
+  }
+  
+  .btn2 {
+    width: 200px;
+    padding: 5px;
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 25px ;
+  }
+  #btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #histroyBtn {
+    visibility: visible;
+    width: 150px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    margin-left: 5px ;
+  }
+  
+  .container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    padding: 10px;
+    border: 3px solid white;
+  }
+  .container div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #output {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  #outputText {
+    display: none;
+  }
+  
+  .actionbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .list {
+    gap: 1rem;
+    margin: 10px;
+  }
+  .list li {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+  }

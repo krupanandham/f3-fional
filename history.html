@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav" onclick="start()">
+      <h2>WELCOME TO BOOK STORE!!!</h2>
+    </div>
+    <div class="actionbar">
+      <div><h4>Your Previous Searches</h4></div>
+      <div>
+        <button class="btn" onclick="clrHis()">Clear History</button>
+      </div>
+    </div>
+    <div class="historyList">
+      <ol class="list" id="hisdata">
+      </ol>
+    </div>
+    <script>
+      function start() {
+        window.location.href = "index.html";
+      }
+    </script>
+    <script src="history.js"></script>
+  </body>
+</html>
